@@ -1,0 +1,1433 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  l_CABS                          
+C:   00000000  l_GSINIT1                       
+C:   00000000  l_GSINIT5                       
+C:   00000000  l_IABS                          
+C:   00000000  l_REG_BANK_1                    
+C:   00000000  l_REG_BANK_2                    
+C:   00000000  l_REG_BANK_3                    
+C:   00000000  l_RSEG                          
+C:   00000000  l_RSEG0                         
+C:   00000000  l_RSEG1                         
+C:   00000000  l_XABS                          
+C:   00000000  l_XINIT                         
+C:   00000000  l_XISEG                         
+C:   00000000  l__CODE                         
+C:   00000000  s_BSEG                          
+C:   00000000  s_CABS                          
+C:   00000000  s_DSEG                          
+C:   00000000  s_HOME                          
+C:   00000000  s_IABS                          
+C:   00000000  s_REG_BANK_0                    
+C:   00000000  s_RSEG                          
+C:   00000000  s_RSEG0                         
+C:   00000000  s_RSEG1                         
+C:   00000000  s_XABS                          
+C:   00000001  l_BIT_BANK                      
+C:   00000001  s_PSEG                          
+C:   00000003  l_GSFINAL                       
+C:   00000003  l_GSINIT0                       
+C:   00000003  l_ISEG                          
+C:   00000004  l_OSEG                          
+C:   00000006  l_BSEG_BYTES                    
+C:   00000008  l_REG_BANK_0                    
+C:   00000008  s_REG_BANK_1                    
+C:   0000000A  l_GSINIT2                       
+C:   00000010  s_REG_BANK_2                    
+C:   00000017  s_OSEG                          
+C:   00000018  s_REG_BANK_3                    
+C:   0000001B  s_ISEG                          
+C:   00000020  s_BSEG_BYTES                    
+C:   00000020  s__CODE                         
+C:   00000022  l_GSINIT3                       
+C:   00000026  s_BIT_BANK                      
+C:   0000002A  l_GSINIT4                       
+C:   0000002B  l_BSEG                          
+C:   0000002E  l_PSEG                          
+C:   00000030  s_XSEG                          
+C:   00000078  s_SSEG                          
+C:   0000007E  l_DSEG                          
+C:   00000088  l_SSEG                          
+C:   000000B1  l_HOME                          
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000B1  s_GSINIT0                       
+C:   000000B4  s_GSINIT1                       
+C:   000000B4  s_GSINIT2                       
+C:   000000BE  s_GSINIT3                       
+C:   000000E0  s_GSINIT4                       
+C:   00000100  l_IRAM                          
+C:   0000010A  s_GSINIT                        
+C:   0000010A  s_GSINIT5                       
+C:   0000011E  l_GSINIT                        
+C:   00000200  l_XSEG                          
+C:   00000228  s_GSFINAL                       
+C:   0000022B  s_CSEG                          
+C:   00000230  s_XISEG                         
+C:   00000DCA  l_CONST                         
+C:   00002A1F  l_CSEG                          
+C:   00002C4A  s_CONST                         
+C:   00003A14  s_XINIT                         
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _fs2ulong
+     00000080  _P0                                tools
+     00000080  _P00                               tools
+     00000081  _P01                               tools
+     00000081  _SP                                tools
+     00000082  _DPL                               tools
+     00000082  _P02                               tools
+     00000083  _DPH                               tools
+     00000083  _P03                               tools
+     00000084  _P04                               tools
+     00000084  _S4CON                             tools
+     00000085  _P05                               tools
+     00000085  _S4BUF                             tools
+     00000086  _P06                               tools
+     00000087  _P07                               tools
+     00000087  _PCON                              tools
+     00000088  _IT0                               tools
+     00000088  _TCON                              tools
+     00000089  _IE0                               tools
+     00000089  _TMOD                              tools
+     0000008A  _IT1                               tools
+     0000008A  _TL0                               tools
+     0000008B  _IE1                               tools
+     0000008B  _TL1                               tools
+     0000008C  _TH0                               tools
+     0000008C  _TR0                               tools
+     0000008D  _TF0                               tools
+     0000008D  _TH1                               tools
+     0000008E  _AUXR                              tools
+     0000008E  _TR1                               tools
+     0000008F  _INTCLKO                           tools
+     0000008F  _TF1                               tools
+     00000090  _P1                                tools
+     00000090  _P10                               tools
+     00000091  _P11                               tools
+     00000091  _P1M1                              tools
+     00000092  _P12                               tools
+     00000092  _P1M0                              tools
+     00000093  _P0M1                              tools
+     00000093  _P13                               tools
+     00000094  _P0M0                              tools
+     00000094  _P14                               tools
+     00000095  _P15                               tools
+     00000095  _P2M1                              tools
+     00000096  _P16                               tools
+     00000096  _P2M0                              tools
+     00000097  _P17                               tools
+     00000098  _RI                                tools
+     00000098  _SCON                              tools
+     00000099  _SBUF                              tools
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000099  _TI                                tools
+     0000009A  _RB8                               tools
+     0000009A  _S2CON                             tools
+     0000009B  _S2BUF                             tools
+     0000009B  _TB8                               tools
+     0000009C  _REN                               tools
+     0000009D  _IRCBAND                           tools
+     0000009D  _SM2                               tools
+     0000009E  _LIRTRIM                           tools
+     0000009E  _SM1                               tools
+     0000009F  _IRTRIM                            tools
+     0000009F  _SM0                               tools
+     000000A0  _P2                                tools
+     000000A0  _P20                               tools
+     000000A0  __XPAGE                            
+     000000A1  _P21                               tools
+     000000A2  _P22                               tools
+     000000A2  _P_SW1                             tools
+     000000A3  _P23                               tools
+     000000A4  _P24                               tools
+     000000A5  _P25                               tools
+     000000A6  _P26                               tools
+     000000A7  _P27                               tools
+     000000A8  _EX0                               tools
+     000000A8  _IE                                tools
+     000000A9  _ET0                               tools
+     000000A9  _SADDR                             tools
+     000000AA  _EX1                               tools
+     000000AA  _WKTCL                             tools
+     000000AB  _ET1                               tools
+     000000AB  _WKTCH                             tools
+     000000AC  _ES                                tools
+     000000AC  _S3CON                             tools
+     000000AD  _EADC                              tools
+     000000AD  _S3BUF                             tools
+     000000AE  _ELVD                              tools
+     000000AE  _TA                                tools
+     000000AF  _EA                                tools
+     000000AF  _IE2                               tools
+     000000B0  _P3                                tools
+     000000B0  _P30                               tools
+     000000B1  _P31                               tools
+     000000B1  _P3M1                              tools
+     000000B2  _P32                               tools
+     000000B2  _P3M0                              tools
+     000000B3  _P33                               tools
+     000000B3  _P4M1                              tools
+     000000B4  _P34                               tools
+     000000B4  _P4M0                              tools
+     000000B5  _IP2                               tools
+     000000B5  _P35                               tools
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000B6  _IP2H                              tools
+     000000B6  _P36                               tools
+     000000B7  _IPH                               tools
+     000000B7  _P37                               tools
+     000000B8  _IP                                tools
+     000000B8  _PX0                               tools
+     000000B9  _PT0                               tools
+     000000B9  _SADEN                             tools
+     000000BA  _PX1                               tools
+     000000BA  _P_SW2                             tools
+     000000BB  _PT1                               tools
+     000000BC  _ADC_CONTR                         tools
+     000000BC  _PS                                tools
+     000000BD  _ADC_RES                           tools
+     000000BD  _PADC                              tools
+     000000BE  _ADC_RESL                          tools
+     000000BE  _PLVD                              tools
+     000000BF  _PPCA                              tools
+     000000C0  _P4                                tools
+     000000C0  _P40                               tools
+     000000C1  _P41                               tools
+     000000C1  _WDT_CONTR                         tools
+     000000C2  _IAP_DATA                          tools
+     000000C2  _P42                               tools
+     000000C3  _IAP_ADDRH                         tools
+     000000C3  _P43                               tools
+     000000C4  _IAP_ADDRL                         tools
+     000000C4  _P44                               tools
+     000000C5  _IAP_CMD                           tools
+     000000C5  _P45                               tools
+     000000C6  _IAP_TRIG                          tools
+     000000C6  _P46                               tools
+     000000C7  _IAP_CONTR                         tools
+     000000C7  _P47                               tools
+     000000C8  _P5                                tools
+     000000C8  _P50                               tools
+     000000C9  _P51                               tools
+     000000C9  _P5M1                              tools
+     000000CA  _P52                               tools
+     000000CA  _P5M0                              tools
+     000000CB  _P53                               tools
+     000000CB  _P6M1                              tools
+     000000CC  _P54                               tools
+     000000CC  _P6M0                              tools
+     000000CD  _P55                               tools
+     000000CD  _SPSTAT                            tools
+     000000CE  _P56                               tools
+     000000CE  _SPCTL                             tools
+     000000CF  _P57                               tools
+     000000CF  _SPDAT                             tools
+     000000D0  _P                                 tools
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000D0  _PSW                               tools
+     000000D1  _F1                                tools
+     000000D1  _T4T3M                             tools
+     000000D2  _OV                                tools
+     000000D2  _T4H                               tools
+     000000D3  _RS0                               tools
+     000000D3  _T4L                               tools
+     000000D4  _RS1                               tools
+     000000D4  _T3H                               tools
+     000000D5  _F0                                tools
+     000000D5  _T3L                               tools
+     000000D6  _AC                                tools
+     000000D6  _T2H                               tools
+     000000D7  _CY                                tools
+     000000D7  _T2L                               tools
+     000000D8  _CCF0                              tools
+     000000D8  _CCON                              tools
+     000000D9  _CCF1                              tools
+     000000D9  _CMOD                              tools
+     000000DA  _CCAPM0                            tools
+     000000DA  _CCF2                              tools
+     000000DB  _CCAPM1                            tools
+     000000DC  _CCAPM2                            tools
+     000000DE  _ADCCFG                            tools
+     000000DE  _CR                                tools
+     000000DF  _CF                                tools
+     000000DF  _IP3                               tools
+     000000E0  _ACC                               tools
+     000000E1  _P7M1                              tools
+     000000E2  _P7M0                              tools
+     000000E3  _DPS                               tools
+     000000E4  _DPL1                              tools
+     000000E5  _DPH1                              tools
+     000000E6  _CMPCR1                            tools
+     000000E7  _CMPCR2                            tools
+     000000E8  _P6                                tools
+     000000E8  _P60                               tools
+     000000E9  _CL                                tools
+     000000E9  _P61                               tools
+     000000EA  _CCAP0L                            tools
+     000000EA  _P62                               tools
+     000000EB  _CCAP1L                            tools
+     000000EB  _P63                               tools
+     000000EC  _CCAP2L                            tools
+     000000EC  _P64                               tools
+     000000ED  _P65                               tools
+     000000EE  _IP3H                              tools
+     000000EE  _P66                               tools
+     000000EF  _AUXINTIF                          tools
+     000000EF  _P67                               tools
+     000000F0  _B                                 tools
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000F1  _PWMSET                            tools
+     000000F2  _PCA_PWM0                          tools
+     000000F3  _PCA_PWM1                          tools
+     000000F4  _PCA_PWM2                          tools
+     000000F5  _B_5                               _gptrget
+     000000F5  _IAP_TPS                           tools
+     000000F6  _B_6                               _gptrget
+     000000F6  _PWMCFG01                          tools
+     000000F7  _B_7                               _gptrget
+     000000F7  _PWMCFG23                          tools
+     000000F8  _P7                                tools
+     000000F8  _P70                               tools
+     000000F9  _CH                                tools
+     000000F9  _P71                               tools
+     000000FA  _CCAP0H                            tools
+     000000FA  _P72                               tools
+     000000FB  _CCAP1H                            tools
+     000000FB  _P73                               tools
+     000000FC  _CCAP2H                            tools
+     000000FC  _P74                               tools
+     000000FD  _P75                               tools
+     000000FE  _P76                               tools
+     000000FE  _PWMCFG45                          tools
+     000000FF  _P77                               tools
+     000000FF  _RSTCFG                            tools
+     00004200  _CALI_TAG                          main
+     00004202  _CALI_OFFSETH                      main
+     00004203  _CALI_OFFSETL                      main
+     00004204  _CALI_GAINH                        main
+     00004205  _CALI_GAINL                        main
+     00004206  _CALI_PKH                          main
+     00004207  _CALI_PKL                          main
+     00004208  _CALI_PGH                          main
+     00004209  _CALI_PGL                          main
+     000043F7  _BG_REFH                           main
+     000043F8  _BG_REFL                           main
+     00008382  _DP                                tools
+     00008C8A  _T0                                tools
+     00008D8B  _T1                                tools
+     0000ABAA  _WKTC                              tools
+     0000BDBE  _ADC_RES16                         tools
+     0000C3C4  _IAP_ADDR                          tools
+     0000D2D3  _T4                                tools
+     0000D4D5  _T3                                tools
+     0000D6D7  _T2                                tools
+     0000E5E4  _DP1                               tools
+     0000F9E9  _C                                 tools
+     0000FAEA  _CCAP0                             tools
+     0000FB00  _COMEN                             tools
+     0000FB01  _SEGENL                            tools
+     0000FB02  _SEGENH                            tools
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FB03  _LEDCTRL                           tools
+     0000FB04  _LEDCKS                            tools
+     0000FB10  _COM0_DA_L                         tools
+     0000FB11  _COM1_DA_L                         tools
+     0000FB12  _COM2_DA_L                         tools
+     0000FB13  _COM3_DA_L                         tools
+     0000FB14  _COM4_DA_L                         tools
+     0000FB15  _COM5_DA_L                         tools
+     0000FB16  _COM6_DA_L                         tools
+     0000FB17  _COM7_DA_L                         tools
+     0000FB18  _COM0_DA_H                         tools
+     0000FB19  _COM1_DA_H                         tools
+     0000FB1A  _COM2_DA_H                         tools
+     0000FB1B  _COM3_DA_H                         tools
+     0000FB1C  _COM4_DA_H                         tools
+     0000FB1D  _COM5_DA_H                         tools
+     0000FB1E  _COM6_DA_H                         tools
+     0000FB1F  _COM7_DA_H                         tools
+     0000FB20  _COM0_DC_L                         tools
+     0000FB21  _COM1_DC_L                         tools
+     0000FB22  _COM2_DC_L                         tools
+     0000FB23  _COM3_DC_L                         tools
+     0000FB24  _COM4_DC_L                         tools
+     0000FB25  _COM5_DC_L                         tools
+     0000FB26  _COM6_DC_L                         tools
+     0000FB27  _COM7_DC_L                         tools
+     0000FB28  _COM0_DC_H                         tools
+     0000FB29  _COM1_DC_H                         tools
+     0000FB2A  _COM2_DC_H                         tools
+     0000FB2B  _COM3_DC_H                         tools
+     0000FB2C  _COM4_DC_H                         tools
+     0000FB2D  _COM5_DC_H                         tools
+     0000FB2E  _COM6_DC_H                         tools
+     0000FB2F  _COM7_DC_H                         tools
+     0000FB40  _TSCHEN1                           tools
+     0000FB41  _TSCHEN2                           tools
+     0000FB42  _TSCFG1                            tools
+     0000FB43  _TSCFG2                            tools
+     0000FB44  _TSWUTC                            tools
+     0000FB45  _TSCTRL                            tools
+     0000FB46  _TSSTA1                            tools
+     0000FB47  _TSSTA2                            tools
+     0000FB48  _TSRT                              tools
+     0000FB49  _TSDATH                            tools
+     0000FB4A  _TSDATL                            tools
+     0000FB50  _TSTH00H                           tools
+     0000FB51  _TSTH00L                           tools
+     0000FB52  _TSTH01H                           tools
+     0000FB53  _TSTH01L                           tools
+     0000FB54  _TSTH02H                           tools
+     0000FB55  _TSTH02L                           tools
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FB56  _TSTH03H                           tools
+     0000FB57  _TSTH03L                           tools
+     0000FB58  _TSTH04H                           tools
+     0000FB59  _TSTH04L                           tools
+     0000FB5A  _TSTH05H                           tools
+     0000FB5B  _TSTH05L                           tools
+     0000FB5C  _TSTH06H                           tools
+     0000FB5D  _TSTH06L                           tools
+     0000FB5E  _TSTH07H                           tools
+     0000FB5F  _TSTH07L                           tools
+     0000FB60  _TSTH08H                           tools
+     0000FB61  _TSTH08L                           tools
+     0000FB62  _TSTH09H                           tools
+     0000FB63  _TSTH09L                           tools
+     0000FB64  _TSTH10H                           tools
+     0000FB65  _TSTH10L                           tools
+     0000FB66  _TSTH11H                           tools
+     0000FB67  _TSTH11L                           tools
+     0000FB68  _TSTH12H                           tools
+     0000FB69  _TSTH12L                           tools
+     0000FB6A  _TSTH13H                           tools
+     0000FB6B  _TSTH13L                           tools
+     0000FB6C  _TSTH14H                           tools
+     0000FB6D  _TSTH14L                           tools
+     0000FB6E  _TSTH15H                           tools
+     0000FB6F  _TSTH15L                           tools
+     0000FBEB  _CCAP1                             tools
+     0000FC00  _PWM3CH                            tools
+     0000FC01  _PWM3CL                            tools
+     0000FC02  _PWM3CKS                           tools
+     0000FC05  _PWM3IF                            tools
+     0000FC06  _PWM3FDCR                          tools
+     0000FC10  _PWM30T1H                          tools
+     0000FC11  _PWM30T1L                          tools
+     0000FC12  _PWM30T2H                          tools
+     0000FC13  _PWM30T2L                          tools
+     0000FC14  _PWM30CR                           tools
+     0000FC15  _PWM30HLD                          tools
+     0000FC18  _PWM31T1H                          tools
+     0000FC19  _PWM31T1L                          tools
+     0000FC1A  _PWM31T2H                          tools
+     0000FC1B  _PWM31T2L                          tools
+     0000FC1C  _PWM31CR                           tools
+     0000FC1D  _PWM31HLD                          tools
+     0000FC20  _PWM32T1H                          tools
+     0000FC21  _PWM32T1L                          tools
+     0000FC22  _PWM32T2H                          tools
+     0000FC23  _PWM32T2L                          tools
+     0000FC24  _PWM32CR                           tools
+     0000FC25  _PWM32HLD                          tools
+     0000FC28  _PWM33T1H                          tools
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FC29  _PWM33T1L                          tools
+     0000FC2A  _PWM33T2H                          tools
+     0000FC2B  _PWM33T2L                          tools
+     0000FC2C  _PWM33CR                           tools
+     0000FC2D  _PWM33HLD                          tools
+     0000FC30  _PWM34T1H                          tools
+     0000FC31  _PWM34T1L                          tools
+     0000FC32  _PWM34T2H                          tools
+     0000FC33  _PWM34T2L                          tools
+     0000FC34  _PWM34CR                           tools
+     0000FC35  _PWM34HLD                          tools
+     0000FC38  _PWM35T1H                          tools
+     0000FC39  _PWM35T1L                          tools
+     0000FC3A  _PWM35T2H                          tools
+     0000FC3B  _PWM35T2L                          tools
+     0000FC3C  _PWM35CR                           tools
+     0000FC3D  _PWM35HLD                          tools
+     0000FC40  _PWM36T1H                          tools
+     0000FC41  _PWM36T1L                          tools
+     0000FC42  _PWM36T2H                          tools
+     0000FC43  _PWM36T2L                          tools
+     0000FC44  _PWM36CR                           tools
+     0000FC45  _PWM36HLD                          tools
+     0000FC48  _PWM37T1H                          tools
+     0000FC49  _PWM37T1L                          tools
+     0000FC4A  _PWM37T2H                          tools
+     0000FC4B  _PWM37T2L                          tools
+     0000FC4C  _PWM37CR                           tools
+     0000FC4D  _PWM37HLD                          tools
+     0000FC50  _PWM4CH                            tools
+     0000FC51  _PWM4CL                            tools
+     0000FC52  _PWM4CKS                           tools
+     0000FC53  _PWM4TADCH                         tools
+     0000FC54  _PWM4TADCL                         tools
+     0000FC55  _PWM4IF                            tools
+     0000FC56  _PWM4FDCR                          tools
+     0000FC60  _PWM40T1H                          tools
+     0000FC61  _PWM40T1L                          tools
+     0000FC62  _PWM40T2H                          tools
+     0000FC63  _PWM40T2L                          tools
+     0000FC64  _PWM40CR                           tools
+     0000FC65  _PWM40HLD                          tools
+     0000FC68  _PWM41T1H                          tools
+     0000FC69  _PWM41T1L                          tools
+     0000FC6A  _PWM41T2H                          tools
+     0000FC6B  _PWM41T2L                          tools
+     0000FC6C  _PWM41CR                           tools
+     0000FC6D  _PWM41HLD                          tools
+     0000FC70  _PWM42T1H                          tools
+     0000FC71  _PWM42T1L                          tools
+     0000FC72  _PWM42T2H                          tools
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FC73  _PWM42T2L                          tools
+     0000FC74  _PWM42CR                           tools
+     0000FC75  _PWM42HLD                          tools
+     0000FC78  _PWM43T1H                          tools
+     0000FC79  _PWM43T1L                          tools
+     0000FC7A  _PWM43T2H                          tools
+     0000FC7B  _PWM43T2L                          tools
+     0000FC7C  _PWM43CR                           tools
+     0000FC7D  _PWM43HLD                          tools
+     0000FC80  _PWM44T1H                          tools
+     0000FC81  _PWM44T1L                          tools
+     0000FC82  _PWM44T2H                          tools
+     0000FC83  _PWM44T2L                          tools
+     0000FC84  _PWM44CR                           tools
+     0000FC85  _PWM44HLD                          tools
+     0000FC88  _PWM45T1H                          tools
+     0000FC89  _PWM45T1L                          tools
+     0000FC8A  _PWM45T2H                          tools
+     0000FC8B  _PWM45T2L                          tools
+     0000FC8C  _PWM45CR                           tools
+     0000FC8D  _PWM45HLD                          tools
+     0000FC90  _PWM46T1H                          tools
+     0000FC91  _PWM46T1L                          tools
+     0000FC92  _PWM46T2H                          tools
+     0000FC93  _PWM46T2L                          tools
+     0000FC94  _PWM46CR                           tools
+     0000FC95  _PWM46HLD                          tools
+     0000FC98  _PWM47T1H                          tools
+     0000FC99  _PWM47T1L                          tools
+     0000FC9A  _PWM47T2H                          tools
+     0000FC9B  _PWM47T2L                          tools
+     0000FC9C  _PWM47CR                           tools
+     0000FC9D  _PWM47HLD                          tools
+     0000FCA0  _PWM5CH                            tools
+     0000FCA1  _PWM5CL                            tools
+     0000FCA2  _PWM5CKS                           tools
+     0000FCA5  _PWM5IF                            tools
+     0000FCA6  _PWM5FDCR                          tools
+     0000FCB0  _PWM50T1H                          tools
+     0000FCB1  _PWM50T1L                          tools
+     0000FCB2  _PWM50T2H                          tools
+     0000FCB3  _PWM50T2L                          tools
+     0000FCB4  _PWM50CR                           tools
+     0000FCB5  _PWM50HLD                          tools
+     0000FCB8  _PWM51T1H                          tools
+     0000FCB9  _PWM51T1L                          tools
+     0000FCBA  _PWM51T2H                          tools
+     0000FCBB  _PWM51T2L                          tools
+     0000FCBC  _PWM51CR                           tools
+     0000FCBD  _PWM51HLD                          tools
+     0000FCC0  _PWM52T1H                          tools
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FCC1  _PWM52T1L                          tools
+     0000FCC2  _PWM52T2H                          tools
+     0000FCC3  _PWM52T2L                          tools
+     0000FCC4  _PWM52CR                           tools
+     0000FCC5  _PWM52HLD                          tools
+     0000FCC8  _PWM53T1H                          tools
+     0000FCC9  _PWM53T1L                          tools
+     0000FCCA  _PWM53T2H                          tools
+     0000FCCB  _PWM53T2L                          tools
+     0000FCCC  _PWM53CR                           tools
+     0000FCCD  _PWM53HLD                          tools
+     0000FCD0  _PWM54T1H                          tools
+     0000FCD1  _PWM54T1L                          tools
+     0000FCD2  _PWM54T2H                          tools
+     0000FCD3  _PWM54T2L                          tools
+     0000FCD4  _PWM54CR                           tools
+     0000FCD5  _PWM54HLD                          tools
+     0000FCD8  _PWM55T1H                          tools
+     0000FCD9  _PWM55T1L                          tools
+     0000FCDA  _PWM55T2H                          tools
+     0000FCDB  _PWM55T2L                          tools
+     0000FCDC  _PWM55CR                           tools
+     0000FCDD  _PWM55HLD                          tools
+     0000FCE0  _PWM56T1H                          tools
+     0000FCE1  _PWM56T1L                          tools
+     0000FCE2  _PWM56T2H                          tools
+     0000FCE3  _PWM56T2L                          tools
+     0000FCE4  _PWM56CR                           tools
+     0000FCE5  _PWM56HLD                          tools
+     0000FCE8  _PWM57T1H                          tools
+     0000FCE9  _PWM57T1L                          tools
+     0000FCEA  _PWM57T2H                          tools
+     0000FCEB  _PWM57T2L                          tools
+     0000FCEC  _CCAP2                             tools
+     0000FCEC  _PWM57CR                           tools
+     0000FCED  _PWM57HLD                          tools
+     0000FCF0  _MD3                               tools
+     0000FCF1  _MD2                               tools
+     0000FCF2  _MD1                               tools
+     0000FCF3  _MD0                               tools
+     0000FCF4  _MD5                               tools
+     0000FCF5  _MD4                               tools
+     0000FCF6  _ARCON                             tools
+     0000FCF7  _OPCON                             tools
+     0000FD00  _P0INTE                            tools
+     0000FD01  _P1INTE                            tools
+     0000FD02  _P2INTE                            tools
+     0000FD03  _P3INTE                            tools
+     0000FD04  _P4INTE                            tools
+     0000FD05  _P5INTE                            tools
+     0000FD06  _P6INTE                            tools
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FD07  _P7INTE                            tools
+     0000FD10  _P0INTF                            tools
+     0000FD11  _P1INTF                            tools
+     0000FD12  _P2INTF                            tools
+     0000FD13  _P3INTF                            tools
+     0000FD14  _P4INTF                            tools
+     0000FD15  _P5INTF                            tools
+     0000FD16  _P6INTF                            tools
+     0000FD17  _P7INTF                            tools
+     0000FD20  _P0IM0                             tools
+     0000FD21  _P1IM0                             tools
+     0000FD22  _P2IM0                             tools
+     0000FD23  _P3IM0                             tools
+     0000FD24  _P4IM0                             tools
+     0000FD25  _P5IM0                             tools
+     0000FD26  _P6IM0                             tools
+     0000FD27  _P7IM0                             tools
+     0000FD30  _P0IM1                             tools
+     0000FD31  _P1IM1                             tools
+     0000FD32  _P2IM1                             tools
+     0000FD33  _P3IM1                             tools
+     0000FD34  _P4IM1                             tools
+     0000FD35  _P5IM1                             tools
+     0000FD36  _P6IM1                             tools
+     0000FD37  _P7IM1                             tools
+     0000FD40  _P0WKUE                            tools
+     0000FD41  _P1WKUE                            tools
+     0000FD42  _P2WKUE                            tools
+     0000FD43  _P3WKUE                            tools
+     0000FD44  _P4WKUE                            tools
+     0000FD45  _P5WKUE                            tools
+     0000FD46  _P6WKUE                            tools
+     0000FD47  _P7WKUE                            tools
+     0000FD60  _PIN_IP                            tools
+     0000FD61  _PIN_IPH                           tools
+     0000FE00  _CLKSEL                            tools
+     0000FE01  _CLKDIV                            tools
+     0000FE02  _HIRCCR                            tools
+     0000FE03  _XOSCCR                            tools
+     0000FE04  _IRC32KCR                          tools
+     0000FE05  _MCLKOCR                           tools
+     0000FE06  _IRCDB                             tools
+     0000FE08  _X32KCR                            tools
+     0000FE10  _P0PU                              tools
+     0000FE11  _P1PU                              tools
+     0000FE12  _P2PU                              tools
+     0000FE13  _P3PU                              tools
+     0000FE14  _P4PU                              tools
+     0000FE15  _P5PU                              tools
+     0000FE16  _P6PU                              tools
+     0000FE17  _P7PU                              tools
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FE18  _P0NCS                             tools
+     0000FE19  _P1NCS                             tools
+     0000FE1A  _P2NCS                             tools
+     0000FE1B  _P3NCS                             tools
+     0000FE1C  _P4NCS                             tools
+     0000FE1D  _P5NCS                             tools
+     0000FE1E  _P6NCS                             tools
+     0000FE1F  _P7NCS                             tools
+     0000FE20  _P0SR                              tools
+     0000FE21  _P1SR                              tools
+     0000FE22  _P2SR                              tools
+     0000FE23  _P3SR                              tools
+     0000FE24  _P4SR                              tools
+     0000FE25  _P5SR                              tools
+     0000FE26  _P6SR                              tools
+     0000FE27  _P7SR                              tools
+     0000FE28  _P0DR                              tools
+     0000FE29  _P1DR                              tools
+     0000FE2A  _P2DR                              tools
+     0000FE2B  _P3DR                              tools
+     0000FE2C  _P4DR                              tools
+     0000FE2D  _P5DR                              tools
+     0000FE2E  _P6DR                              tools
+     0000FE2F  _P7DR                              tools
+     0000FE30  _P0IE                              tools
+     0000FE31  _P1IE                              tools
+     0000FE32  _P2IE                              tools
+     0000FE33  _P3IE                              tools
+     0000FE34  _P4IE                              tools
+     0000FE35  _P5IE                              tools
+     0000FE36  _P6IE                              tools
+     0000FE37  _P7IE                              tools
+     0000FE60  _RTCCR                             tools
+     0000FE61  _RTCCFG                            tools
+     0000FE62  _RTCIEN                            tools
+     0000FE63  _RTCIF                             tools
+     0000FE64  _ALAHOUR                           tools
+     0000FE65  _ALAMIN                            tools
+     0000FE66  _ALASEC                            tools
+     0000FE67  _ALASSEC                           tools
+     0000FE68  _INIYEAR                           tools
+     0000FE69  _INIMONTH                          tools
+     0000FE6A  _INIDAY                            tools
+     0000FE6B  _INIHOUR                           tools
+     0000FE6C  _INIMIN                            tools
+     0000FE6D  _INISEC                            tools
+     0000FE6E  _INISSEC                           tools
+     0000FE70  _YEAR                              tools
+     0000FE71  _MONTH                             tools
+     0000FE72  _DAY                               tools
+     0000FE73  _HOUR                              tools
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FE74  _MIN                               tools
+     0000FE75  _SEC                               tools
+     0000FE76  _SSEC                              tools
+     0000FE80  _I2CCFG                            tools
+     0000FE81  _I2CMSCR                           tools
+     0000FE82  _I2CMSST                           tools
+     0000FE83  _I2CSLCR                           tools
+     0000FE84  _I2CSLST                           tools
+     0000FE85  _I2CSLADR                          tools
+     0000FE86  _I2CTXD                            tools
+     0000FE87  _I2CRXD                            tools
+     0000FE88  _I2CMSAUX                          tools
+     0000FEA2  _TM2PS                             tools
+     0000FEA3  _TM3PS                             tools
+     0000FEA4  _TM4PS                             tools
+     0000FEA8  _ADCTIM                            tools
+     0000FEAC  _T3T4PS                            tools
+     0000FF00  _PWM0CH                            tools
+     0000FF01  _PWM0CL                            tools
+     0000FF02  _PWM0CKS                           tools
+     0000FF03  _PWM0TADCH                         tools
+     0000FF04  _PWM0TADCL                         tools
+     0000FF05  _PWM0IF                            tools
+     0000FF06  _PWM0FDCR                          tools
+     0000FF11  _PWM00T1L                          tools
+     0000FF12  _PWM00T2H                          tools
+     0000FF13  _PWM00T2L                          tools
+     0000FF14  _PWM00CR                           tools
+     0000FF15  _PWM00HLD                          tools
+     0000FF18  _PWM01T1H                          tools
+     0000FF19  _PWM01T1L                          tools
+     0000FF1A  _PWM01T2H                          tools
+     0000FF1B  _PWM01T2L                          tools
+     0000FF1C  _PWM01CR                           tools
+     0000FF1D  _PWM01HLD                          tools
+     0000FF20  _PWM02T1H                          tools
+     0000FF21  _PWM02T1L                          tools
+     0000FF22  _PWM02T2H                          tools
+     0000FF23  _PWM02T2L                          tools
+     0000FF24  _PWM02CR                           tools
+     0000FF25  _PWM02HLD                          tools
+     0000FF28  _PWM03T1H                          tools
+     0000FF29  _PWM03T1L                          tools
+     0000FF2A  _PWM03T2H                          tools
+     0000FF2B  _PWM03T2L                          tools
+     0000FF2C  _PWM03CR                           tools
+     0000FF2D  _PWM03HLD                          tools
+     0000FF30  _PWM04T1H                          tools
+     0000FF31  _PWM04T1L                          tools
+     0000FF32  _PWM04T2H                          tools
+     0000FF33  _PWM04T2L                          tools
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FF34  _PWM04CR                           tools
+     0000FF35  _PWM04HLD                          tools
+     0000FF38  _PWM05T1H                          tools
+     0000FF39  _PWM05T1L                          tools
+     0000FF3A  _PWM05T2H                          tools
+     0000FF3B  _PWM05T2L                          tools
+     0000FF3C  _PWM05CR                           tools
+     0000FF3D  _PWM05HLD                          tools
+     0000FF40  _PWM06T1H                          tools
+     0000FF41  _PWM06T1L                          tools
+     0000FF42  _PWM06T2H                          tools
+     0000FF43  _PWM06T2L                          tools
+     0000FF44  _PWM06CR                           tools
+     0000FF45  _PWM06HLD                          tools
+     0000FF48  _PWM07T1H                          tools
+     0000FF49  _PWM07T1L                          tools
+     0000FF4A  _PWM07T2H                          tools
+     0000FF4B  _PWM07T2L                          tools
+     0000FF4C  _PWM07CR                           tools
+     0000FF4D  _PWM07HLD                          tools
+     0000FF50  _PWM1CH                            tools
+     0000FF51  _PWM1CL                            tools
+     0000FF52  _PWM1CKS                           tools
+     0000FF55  _PWM1IF                            tools
+     0000FF56  _PWM1FDCR                          tools
+     0000FF60  _PWM10T1H                          tools
+     0000FF61  _PWM10T1L                          tools
+     0000FF62  _PWM10T2H                          tools
+     0000FF63  _PWM10T2L                          tools
+     0000FF64  _PWM10CR                           tools
+     0000FF65  _PWM10HLD                          tools
+     0000FF68  _PWM11T1H                          tools
+     0000FF69  _PWM11T1L                          tools
+     0000FF6A  _PWM11T2H                          tools
+     0000FF6B  _PWM11T2L                          tools
+     0000FF6C  _PWM11CR                           tools
+     0000FF6D  _PWM11HLD                          tools
+     0000FF70  _PWM12T1H                          tools
+     0000FF71  _PWM12T1L                          tools
+     0000FF72  _PWM12T2H                          tools
+     0000FF73  _PWM12T2L                          tools
+     0000FF74  _PWM12CR                           tools
+     0000FF75  _PWM12HLD                          tools
+     0000FF78  _PWM13T1H                          tools
+     0000FF79  _PWM13T1L                          tools
+     0000FF7A  _PWM13T2H                          tools
+     0000FF7B  _PWM13T2L                          tools
+     0000FF7C  _PWM13CR                           tools
+     0000FF7D  _PWM13HLD                          tools
+     0000FF80  _PWM14T1H                          tools
+     0000FF81  _PWM14T1L                          tools
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FF82  _PWM14T2H                          tools
+     0000FF83  _PWM14T2L                          tools
+     0000FF84  _PWM14CR                           tools
+     0000FF85  _PWM14HLD                          tools
+     0000FF88  _PWM15T1H                          tools
+     0000FF89  _PWM15T1L                          tools
+     0000FF8A  _PWM15T2H                          tools
+     0000FF8B  _PWM15T2L                          tools
+     0000FF8C  _PWM15CR                           tools
+     0000FF8D  _PWM15HLD                          tools
+     0000FF90  _PWM16T1H                          tools
+     0000FF91  _PWM16T1L                          tools
+     0000FF92  _PWM16T2H                          tools
+     0000FF93  _PWM16T2L                          tools
+     0000FF94  _PWM16CR                           tools
+     0000FF95  _PWM16HLD                          tools
+     0000FF98  _PWM17T1H                          tools
+     0000FF99  _PWM17T1L                          tools
+     0000FF9A  _PWM17T2H                          tools
+     0000FF9B  _PWM17T2L                          tools
+     0000FF9C  _PWM17CR                           tools
+     0000FF9D  _PWM17HLD                          tools
+     0000FFA0  _PWM2CH                            tools
+     0000FFA1  _PWM2CL                            tools
+     0000FFA2  _PWM2CKS                           tools
+     0000FFA3  _PWM2TADCH                         tools
+     0000FFA4  _PWM2TADCL                         tools
+     0000FFA5  _PWM2IF                            tools
+     0000FFA6  _PWM2FDCR                          tools
+     0000FFB0  _PWM20T1H                          tools
+     0000FFB1  _PWM20T1L                          tools
+     0000FFB2  _PWM20T2H                          tools
+     0000FFB3  _PWM20T2L                          tools
+     0000FFB4  _PWM20CR                           tools
+     0000FFB5  _PWM20HLD                          tools
+     0000FFB8  _PWM21T1H                          tools
+     0000FFB9  _PWM21T1L                          tools
+     0000FFBA  _PWM21T2H                          tools
+     0000FFBB  _PWM21T2L                          tools
+     0000FFBC  _PWM21CR                           tools
+     0000FFBD  _PWM21HLD                          tools
+     0000FFC0  _PWM22T1H                          tools
+     0000FFC1  _PWM22T1L                          tools
+     0000FFC2  _PWM22T2H                          tools
+     0000FFC3  _PWM22T2L                          tools
+     0000FFC4  _PWM22CR                           tools
+     0000FFC5  _PWM22HLD                          tools
+     0000FFC8  _PWM23T1H                          tools
+     0000FFC9  _PWM23T1L                          tools
+     0000FFCA  _PWM23T2H                          tools
+     0000FFCB  _PWM23T2L                          tools
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FFCC  _PWM23CR                           tools
+     0000FFCD  _PWM23HLD                          tools
+     0000FFD0  _PWM24T1H                          tools
+     0000FFD1  _PWM24T1L                          tools
+     0000FFD2  _PWM24T2H                          tools
+     0000FFD3  _PWM24T2L                          tools
+     0000FFD4  _PWM24CR                           tools
+     0000FFD5  _PWM24HLD                          tools
+     0000FFD8  _PWM25T1H                          tools
+     0000FFD9  _PWM25T1L                          tools
+     0000FFDA  _PWM25T2H                          tools
+     0000FFDB  _PWM25T2L                          tools
+     0000FFDC  _PWM25CR                           tools
+     0000FFDD  _PWM25HLD                          tools
+     0000FFE0  _PWM26T1H                          tools
+     0000FFE1  _PWM26T1L                          tools
+     0000FFE2  _PWM26T2H                          tools
+     0000FFE3  _PWM26T2L                          tools
+     0000FFE4  _PWM26CR                           tools
+     0000FFE5  _PWM26HLD                          tools
+     0000FFE8  _PWM27T1H                          tools
+     0000FFE9  _PWM27T1L                          tools
+     0000FFEA  _PWM27T2H                          tools
+     0000FFEB  _PWM27T2L                          tools
+     0000FFEC  _PWM27CR                           tools
+     0000FFED  _PWM27HLD                          tools
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BSEG_BYTES                          00000020    00000006 =           6. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BIT_BANK                            00000026    00000001 =           1. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    0000007E =         126. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000008  _eeprom_load_PARM_2                eeprom
+     00000009  _eeprom_load_PARM_3                eeprom
+     0000000E  _eeprom_save_PARM_2                eeprom
+     00000010  _eeprom_save_PARM_3                eeprom
+     00000011  _eeprom_save_PARM_4                eeprom
+     00000014  _iap_write_PARM_2                  iap
+     00000015  _iap_load_PARM_2                   iap
+     00000016  _iap_save_PARM_2                   iap
+     00000027  _digitalize_PARM_2                 main
+     0000006A  _ssd1306_device                    ssd1306
+     0000006B  _ssd1306_mem_PARM_2                ssd1306
+     0000006C  _ssd1306_write_PARM_2              ssd1306
+     0000006D  _ssd1306_fill_PARM_2               ssd1306
+     0000006E  _ssd1306_rect_PARM_2               ssd1306
+     0000006F  _ssd1306_rect_PARM_3               ssd1306
+     00000070  _ssd1306_rect_PARM_4               ssd1306
+     00000071  _ssd1306_rect_PARM_5               ssd1306
+     00000072  _ssd1306_bitmap_PARM_2             ssd1306
+     00000073  _ssd1306_bitmap_PARM_3             ssd1306
+     00000074  _ssd1306_bitmap_PARM_4             ssd1306
+     00000075  _ssd1306_bitmap_PARM_5             ssd1306
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+OSEG                                00000017    00000004 =           4. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000017  __divsint_PARM_2                   _divuint
+     00000017  __divslong_PARM_2                  _divulong
+     00000017  __divuint_PARM_2                   _divuint
+     00000017  __divulong_PARM_2                  _divulong
+     00000017  __modsint_PARM_2                   _moduint
+     00000017  __moduint_PARM_2                   _moduint
+     00000017  __mulint_PARM_2                    _mulint
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+ISEG                                0000001B    00000003 =           3. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                00000078    00000088 =         136. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000078  __start__stack                     main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+PSEG                                00000001    0000002E =          46. bytes (REL,CON,PAG,XDATA)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+D:   00000001  _g_tick                            main
+D:   00000003  _g_ana_gain                        main
+D:   00000007  _g_ana_off                         main
+D:   0000000B  _g_ana_pk                          main
+D:   0000000F  _g_ana_pg                          main
+D:   00000013  _g_eeprom_addr                     main
+D:   00000015  _g_temp_set_load                   main
+D:   00000017  _g_blow_load                       main
+D:   00000018  _g_vref_bg                         main
+D:   0000001A  _g_adc_vref                        main
+D:   0000001C  _g_adc_pwr                         main
+D:   0000001E  _g_adc_temp                        main
+D:   00000020  _g_temp_set                        main
+D:   00000022  _g_blow                            main
+D:   00000023  _g_cali_temp                       main
+D:   00000024  _g_temp_cur                        main
+D:   00000026  _g_vcc                             main
+D:   00000028  _g_rot_temp_timeout                main
+ASxxxx Linker V03.00 + NoICE + sdld,  page 27.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+XSEG                                00000030    00000200 =         512. bytes (REL,CON,XDATA)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 28.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    000000B1 =         177. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000AE  __sdcc_program_startup             main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 29.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             000000B1    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000B1  __sdcc_gsinit_startup              
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 30.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT2                             000000B4    0000000A =          10. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 31.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT3                             000000BE    00000022 =          34. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000BE  __mcs51_genXINIT                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 32.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT4                             000000E0    0000002A =          42. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000E0  __mcs51_genRAMCLEAR                
+C:   000000E6  __mcs51_genXRAMCLEAR               
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 33.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              0000010A    0000011E =         286. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 34.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             00000228    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 35.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000022B    00002A1F =       10783. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000022B  _eeprom_load                       eeprom
+C:   000002BC  _eeprom_save                       eeprom
+C:   00000349  _iap_write                         iap
+C:   00000373  _iap_erase                         iap
+C:   0000039A  _iap_load                          iap
+C:   000003D0  _iap_save                          iap
+C:   0000040E  _iic_init                          iic
+C:   00000434  _iic_wait                          iic
+C:   00000444  _iic_start                         iic
+C:   00000456  _iic_stop                          iic
+C:   00000462  _iic_send                          iic
+C:   00000474  _iic_recv_ack                      iic
+C:   0000048B  _iic_recv_nak                      iic
+C:   000004A2  _K_temp                            K
+C:   000004F2  _K_uv                              K
+C:   00000578  _factory_save                      main
+C:   000007CB  _adc_read                          main
+C:   000007E7  _fan_ctrl                          main
+C:   000007FF  _on_P30_down                       main
+C:   00000803  _on_cmp                            main
+C:   000008F5  _digitalize                        main
+C:   0000097A  _disp_flush                        main
+C:   00000EAD  _main                              main
+C:   0000237D  _ser_init                          ser
+C:   000023A9  _ser_ch                            ser
+C:   000023B2  _ser_str                           ser
+C:   000023D1  _ser_h4                            ser
+C:   000023F0  _ser_h8                            ser
+C:   00002405  _ser_h16                           ser
+C:   0000241C  _ser_h32                           ser
+C:   00002442  _ser_u32                           ser
+C:   000024AD  _ser_i32                           ser
+C:   000024D4  _ssd1306_cmd                       ssd1306
+C:   000024EF  _ssd1306_init                      ssd1306
+C:   0000256C  _ssd1306_mem                       ssd1306
+C:   000025A2  _ssd1306_write                     ssd1306
+C:   000025D4  _ssd1306_fill                      ssd1306
+C:   000025FD  _ssd1306_rect                      ssd1306
+C:   00002629  _ssd1306_bitmap                    ssd1306
+C:   00002665  _tools_delay_ms                    tools
+C:   0000267E  ___fssub                           _fssub
+C:   00002689  __divuint                          _divuint
+C:   000026B2  ___fsmul                           _fsmul
+C:   00002755  fsgetargs                          _fsget2args
+C:   00002783  __divulong                         _divulong
+C:   000027E8  fs_normalize_a                     _fsnormalize
+C:   0000281B  ___fslt                            _fslt
+C:   0000284B  __mulint                           _mulint
+C:   0000284B  __mulint_dummy                     _mulint
+C:   00002868  __moduint                          _moduint
+ASxxxx Linker V03.00 + NoICE + sdld,  page 36.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000022B    00002A1F =       10783. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000028B5  ___fsadd                           _fsadd
+C:   000028B8  fsadd_direct_entry                 _fsadd
+C:   0000290E  fs_compare_uint32                  _fscmp
+C:   0000292C  fs_check_negative_zeros            _fscmp
+C:   00002957  ___fs2sint                         _fs2sint
+C:   0000298B  ___sint2fs                         _sint2fs
+C:   00002998  ___uint2fs                         _uint2fs
+C:   000029A4  ___fs2uint                         _fs2uint
+C:   000029AF  fs_round_and_return                _fsreturnval
+C:   000029C7  fs_zerocheck_return                _fsreturnval
+C:   000029D0  fs_return_zero                     _fsreturnval
+C:   000029D8  fs_direct_return                   _fsreturnval
+C:   000029E6  fs_return_inf                      _fsreturnval
+C:   000029F3  fs_return_nan                      _fsreturnval
+C:   000029FE  fs_swap_a_b                        _fsswapargs
+C:   00002A18  ___fsdiv                           _fsdiv
+C:   00002ADB  __gptrget                          _gptrget
+C:   00002AF7  ___slong2fs                        _slong2fs
+C:   00002B00  slong2fs_doit                      _slong2fs
+C:   00002B24  ___ulong2fs                        _ulong2fs
+C:   00002B2D  ulong2fs_doit                      _ulong2fs
+C:   00002B37  __divsint                          _divsint
+C:   00002B6F  fs_rshift_a                        _fsrshift
+C:   00002BB2  ___fs2slong                        _fs2slong
+C:   00002C0D  __sdcc_external_startup            _startup
+C:   00002C11  fsgetarg                           _fsget1arg
+C:   00002C23  ___fs2ulong                        _fs2ulong
+C:   00002C25  fs2ulong_begin                     _fs2ulong
+ASxxxx Linker V03.00 + NoICE + sdld,  page 37.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CONST                               00002C4A    00000DCA =        3530. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00002C4A  _FONTS_DIGI_20X32                  fonts
+C:   00002F6A  _FONTS_CDG_24X32                   fonts
+C:   00002FCA  _FONTS_DIGI_SET_16X24              fonts
+C:   0000323A  _FONTS_COLON_11X24                 fonts
+C:   0000325B  _FONTS_CDG_20X24                   fonts
+C:   00003297  _FONTS_HEAT_32X32                  fonts
+C:   00003317  _FONTS_BLOW_32X32                  fonts
+C:   00003397  _FONTS_RUN_32X32                   fonts
+C:   00003417  _FONTS_WORK_32X32                  fonts
+C:   00003497  _FONTS_CALI_128X32                 fonts
+C:   00003697  _K_TEMP_FP5                        K
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 38.
+
+Files Linked                              [ module(s) ]
+
+eeprom.rel                                [  ]
+fonts.rel                                 [  ]
+iap.rel                                   [  ]
+iic.rel                                   [  ]
+K.rel                                     [  ]
+main.rel                                  [  ]
+ser.rel                                   [  ]
+ssd1306.rel                               [  ]
+tools.rel                                 [  ]
+
+
+Libraries Linked                          [ object file ]
+
+C:\SHELL\SDCC420\bin\..\lib\small/libfloat.lib
+                                          [ _fssub.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libint.lib
+                                          [ _divuint.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libfloat.lib
+                                          [ _fsmul.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libfloat.lib
+                                          [ _fsget2args.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/liblong.lib
+                                          [ _divulong.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/mcs51.lib
+                                          [ crtclear.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libfloat.lib
+                                          [ _fsnormalize.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/mcs51.lib
+                                          [ crtxinit.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libfloat.lib
+                                          [ _fslt.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libint.lib
+                                          [ _mulint.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libint.lib
+                                          [ _moduint.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/mcs51.lib
+                                          [ crtxclear.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libfloat.lib
+                                          [ _fsadd.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libfloat.lib
+                                          [ _fscmp.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libfloat.lib
+                                          [ _fs2sint.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libfloat.lib
+                                          [ _sint2fs.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libfloat.lib
+                                          [ _uint2fs.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libfloat.lib
+                                          [ _fs2uint.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libfloat.lib
+                                          [ _fsreturnval.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/mcs51.lib
+                                          [ crtpagesfr.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libfloat.lib
+                                          [ _fsswapargs.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libfloat.lib
+                                          [ _fsdiv.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/mcs51.lib
+                                          [ crtstart.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libsdcc.lib
+                                          [ _gptrget.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libfloat.lib
+                                          [ _slong2fs.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libfloat.lib
+                                          [ _ulong2fs.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libint.lib
+                                          [ _divsint.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libfloat.lib
+                                          [ _fsrshift.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libfloat.lib
+                                          [ _fs2slong.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libsdcc.lib
+                                          [ _startup.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libfloat.lib
+                                          [ _fsget1arg.rel ]
+C:\SHELL\SDCC420\bin\..\lib\small/libfloat.lib
+                                          [ _fs2ulong.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 39.
+
+User Base Address Definitions
+
+HOME = 0x0000
+XSEG = 0x0001
+PSEG = 0x0001
+ISEG = 0x0000
+BSEG = 0x0000
+
+

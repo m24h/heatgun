@@ -1,0 +1,17 @@
+replace {
+	mov	%7,%1
+	mov	%6,#0x00
+	mov	%4,%2
+	mov	%5,#0x00
+	mov	a,%4
+	orl	a,%6
+	mov	dpl,a
+	mov	a,%5
+	orl	a,%7
+	mov	dph,a
+	ret
+} by {
+	mov	dpl,%2
+	mov	dph,%1
+	ret
+}

@@ -1,0 +1,1 @@
+del /q *.asm *.lk *.lst  *.rel *.rst *.sym *.asm *.ihx *.hex 

@@ -1,0 +1,48 @@
+%
+
+/T1:d=0.8mm drilling tool
+/T2:d=1.0mm milling tool
+/T3:d=1.1mm drilling tool
+/T4:d=1.0mm routing tool
+
+G90
+G21
+G17
+
+F1000
+G00 Z10
+G00 X0 Y0
+
+
+M0
+T4 M6
+M3
+
+G00 X37.100 Y12.825
+G01 Z0.1
+F100
+G01 Z-3
+G01 Y14.525
+G01 X37.500
+G01 Y12.825
+G01 X37.100
+F1000
+G01 Z0.1
+G00 Z10
+
+G00 X48.300 Y12.825
+G01 Z0.1
+F100
+G01 Z-3
+G01 Y14.525
+G01 X48.700
+G01 Y12.825
+G01 X48.300
+F1000
+G01 Z0.1
+G00 Z10
+
+G00 X0 Y0
+M5
+M02
+%
