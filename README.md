@@ -12,7 +12,7 @@ A small hot air station for soldering, using type-858 heat gun as handle, STC8G1
 
 ## Burning/Downloading
 
-This program is only for MCU STC8G1K17-16pin.
+This program is only for MCU STC8G1K17-16pin, compiled and linked by SDCC 4.2.0
 
 It must be burned at following scheme:
 
